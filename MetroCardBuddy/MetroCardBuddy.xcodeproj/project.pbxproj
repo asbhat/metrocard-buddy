@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		485E73861DD79F570015DB0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485E73851DD79F570015DB0F /* AppDelegate.swift */; };
+		485E73881DD79F570015DB0F /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485E73871DD79F570015DB0F /* FirstViewController.swift */; };
+		485E738A1DD79F570015DB0F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485E73891DD79F570015DB0F /* SecondViewController.swift */; };
+		485E738D1DD79F570015DB0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 485E738B1DD79F570015DB0F /* Main.storyboard */; };
+		485E738F1DD79F570015DB0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 485E738E1DD79F570015DB0F /* Assets.xcassets */; };
+		485E73921DD79F570015DB0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 485E73901DD79F570015DB0F /* LaunchScreen.storyboard */; };
+		485E739D1DD79F570015DB0F /* MetroCardBuddyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485E739C1DD79F570015DB0F /* MetroCardBuddyTests.swift */; };
+		485E73A81DD79F570015DB0F /* MetroCardBuddyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485E73A71DD79F570015DB0F /* MetroCardBuddyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		485E73991DD79F570015DB0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 485E737A1DD79F560015DB0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 485E73811DD79F560015DB0F;
+			remoteInfo = MetroCardBuddy;
+		};
+		485E73A41DD79F570015DB0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 485E737A1DD79F560015DB0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 485E73811DD79F560015DB0F;
+			remoteInfo = MetroCardBuddy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		485E73821DD79F570015DB0F /* MetroCardBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetroCardBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		485E73851DD79F570015DB0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		485E73871DD79F570015DB0F /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		485E73891DD79F570015DB0F /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		485E738C1DD79F570015DB0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		485E738E1DD79F570015DB0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		485E73911DD79F570015DB0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		485E73931DD79F570015DB0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		485E73981DD79F570015DB0F /* MetroCardBuddyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetroCardBuddyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		485E739C1DD79F570015DB0F /* MetroCardBuddyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetroCardBuddyTests.swift; sourceTree = "<group>"; };
+		485E739E1DD79F570015DB0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		485E73A31DD79F570015DB0F /* MetroCardBuddyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetroCardBuddyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		485E73A71DD79F570015DB0F /* MetroCardBuddyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetroCardBuddyUITests.swift; sourceTree = "<group>"; };
+		485E73A91DD79F570015DB0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		485E737F1DD79F560015DB0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		485E73951DD79F570015DB0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		485E73A01DD79F570015DB0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		485E73791DD79F560015DB0F = {
+			isa = PBXGroup;
+			children = (
+				485E73841DD79F570015DB0F /* MetroCardBuddy */,
+				485E739B1DD79F570015DB0F /* MetroCardBuddyTests */,
+				485E73A61DD79F570015DB0F /* MetroCardBuddyUITests */,
+				485E73831DD79F570015DB0F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		485E73831DD79F570015DB0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				485E73821DD79F570015DB0F /* MetroCardBuddy.app */,
+				485E73981DD79F570015DB0F /* MetroCardBuddyTests.xctest */,
+				485E73A31DD79F570015DB0F /* MetroCardBuddyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		485E73841DD79F570015DB0F /* MetroCardBuddy */ = {
+			isa = PBXGroup;
+			children = (
+				485E73851DD79F570015DB0F /* AppDelegate.swift */,
+				485E73871DD79F570015DB0F /* FirstViewController.swift */,
+				485E73891DD79F570015DB0F /* SecondViewController.swift */,
+				485E738B1DD79F570015DB0F /* Main.storyboard */,
+				485E738E1DD79F570015DB0F /* Assets.xcassets */,
+				485E73901DD79F570015DB0F /* LaunchScreen.storyboard */,
+				485E73931DD79F570015DB0F /* Info.plist */,
+			);
+			path = MetroCardBuddy;
+			sourceTree = "<group>";
+		};
+		485E739B1DD79F570015DB0F /* MetroCardBuddyTests */ = {
+			isa = PBXGroup;
+			children = (
+				485E739C1DD79F570015DB0F /* MetroCardBuddyTests.swift */,
+				485E739E1DD79F570015DB0F /* Info.plist */,
+			);
+			path = MetroCardBuddyTests;
+			sourceTree = "<group>";
+		};
+		485E73A61DD79F570015DB0F /* MetroCardBuddyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				485E73A71DD79F570015DB0F /* MetroCardBuddyUITests.swift */,
+				485E73A91DD79F570015DB0F /* Info.plist */,
+			);
+			path = MetroCardBuddyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		485E73811DD79F560015DB0F /* MetroCardBuddy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 485E73AC1DD79F570015DB0F /* Build configuration list for PBXNativeTarget "MetroCardBuddy" */;
+			buildPhases = (
+				485E737E1DD79F560015DB0F /* Sources */,
+				485E737F1DD79F560015DB0F /* Frameworks */,
+				485E73801DD79F560015DB0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MetroCardBuddy;
+			productName = MetroCardBuddy;
+			productReference = 485E73821DD79F570015DB0F /* MetroCardBuddy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		485E73971DD79F570015DB0F /* MetroCardBuddyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 485E73AF1DD79F570015DB0F /* Build configuration list for PBXNativeTarget "MetroCardBuddyTests" */;
+			buildPhases = (
+				485E73941DD79F570015DB0F /* Sources */,
+				485E73951DD79F570015DB0F /* Frameworks */,
+				485E73961DD79F570015DB0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				485E739A1DD79F570015DB0F /* PBXTargetDependency */,
+			);
+			name = MetroCardBuddyTests;
+			productName = MetroCardBuddyTests;
+			productReference = 485E73981DD79F570015DB0F /* MetroCardBuddyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		485E73A21DD79F570015DB0F /* MetroCardBuddyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 485E73B21DD79F570015DB0F /* Build configuration list for PBXNativeTarget "MetroCardBuddyUITests" */;
+			buildPhases = (
+				485E739F1DD79F570015DB0F /* Sources */,
+				485E73A01DD79F570015DB0F /* Frameworks */,
+				485E73A11DD79F570015DB0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				485E73A51DD79F570015DB0F /* PBXTargetDependency */,
+			);
+			name = MetroCardBuddyUITests;
+			productName = MetroCardBuddyUITests;
+			productReference = 485E73A31DD79F570015DB0F /* MetroCardBuddyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		485E737A1DD79F560015DB0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Aditya Bhat";
+				TargetAttributes = {
+					485E73811DD79F560015DB0F = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 9JN3X82564;
+						ProvisioningStyle = Automatic;
+					};
+					485E73971DD79F570015DB0F = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 9JN3X82564;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 485E73811DD79F560015DB0F;
+					};
+					485E73A21DD79F570015DB0F = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 9JN3X82564;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 485E73811DD79F560015DB0F;
+					};
+				};
+			};
+			buildConfigurationList = 485E737D1DD79F560015DB0F /* Build configuration list for PBXProject "MetroCardBuddy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 485E73791DD79F560015DB0F;
+			productRefGroup = 485E73831DD79F570015DB0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				485E73811DD79F560015DB0F /* MetroCardBuddy */,
+				485E73971DD79F570015DB0F /* MetroCardBuddyTests */,
+				485E73A21DD79F570015DB0F /* MetroCardBuddyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		485E73801DD79F560015DB0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				485E73921DD79F570015DB0F /* LaunchScreen.storyboard in Resources */,
+				485E738F1DD79F570015DB0F /* Assets.xcassets in Resources */,
+				485E738D1DD79F570015DB0F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		485E73961DD79F570015DB0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		485E73A11DD79F570015DB0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		485E737E1DD79F560015DB0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				485E738A1DD79F570015DB0F /* SecondViewController.swift in Sources */,
+				485E73861DD79F570015DB0F /* AppDelegate.swift in Sources */,
+				485E73881DD79F570015DB0F /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		485E73941DD79F570015DB0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				485E739D1DD79F570015DB0F /* MetroCardBuddyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		485E739F1DD79F570015DB0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				485E73A81DD79F570015DB0F /* MetroCardBuddyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		485E739A1DD79F570015DB0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 485E73811DD79F560015DB0F /* MetroCardBuddy */;
+			targetProxy = 485E73991DD79F570015DB0F /* PBXContainerItemProxy */;
+		};
+		485E73A51DD79F570015DB0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 485E73811DD79F560015DB0F /* MetroCardBuddy */;
+			targetProxy = 485E73A41DD79F570015DB0F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		485E738B1DD79F570015DB0F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				485E738C1DD79F570015DB0F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		485E73901DD79F570015DB0F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				485E73911DD79F570015DB0F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		485E73AA1DD79F570015DB0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		485E73AB1DD79F570015DB0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		485E73AD1DD79F570015DB0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9JN3X82564;
+				INFOPLIST_FILE = MetroCardBuddy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = diddly.bot.studios.MetroCardBuddy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		485E73AE1DD79F570015DB0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9JN3X82564;
+				INFOPLIST_FILE = MetroCardBuddy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = diddly.bot.studios.MetroCardBuddy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		485E73B01DD79F570015DB0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9JN3X82564;
+				INFOPLIST_FILE = MetroCardBuddyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = diddly.bot.studios.MetroCardBuddyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MetroCardBuddy.app/MetroCardBuddy";
+			};
+			name = Debug;
+		};
+		485E73B11DD79F570015DB0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9JN3X82564;
+				INFOPLIST_FILE = MetroCardBuddyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = diddly.bot.studios.MetroCardBuddyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MetroCardBuddy.app/MetroCardBuddy";
+			};
+			name = Release;
+		};
+		485E73B31DD79F570015DB0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 9JN3X82564;
+				INFOPLIST_FILE = MetroCardBuddyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = diddly.bot.studios.MetroCardBuddyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MetroCardBuddy;
+			};
+			name = Debug;
+		};
+		485E73B41DD79F570015DB0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 9JN3X82564;
+				INFOPLIST_FILE = MetroCardBuddyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = diddly.bot.studios.MetroCardBuddyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MetroCardBuddy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		485E737D1DD79F560015DB0F /* Build configuration list for PBXProject "MetroCardBuddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				485E73AA1DD79F570015DB0F /* Debug */,
+				485E73AB1DD79F570015DB0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		485E73AC1DD79F570015DB0F /* Build configuration list for PBXNativeTarget "MetroCardBuddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				485E73AD1DD79F570015DB0F /* Debug */,
+				485E73AE1DD79F570015DB0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		485E73AF1DD79F570015DB0F /* Build configuration list for PBXNativeTarget "MetroCardBuddyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				485E73B01DD79F570015DB0F /* Debug */,
+				485E73B11DD79F570015DB0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		485E73B21DD79F570015DB0F /* Build configuration list for PBXNativeTarget "MetroCardBuddyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				485E73B31DD79F570015DB0F /* Debug */,
+				485E73B41DD79F570015DB0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 485E737A1DD79F560015DB0F /* Project object */;
+}
