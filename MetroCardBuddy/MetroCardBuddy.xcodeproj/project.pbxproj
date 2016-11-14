@@ -15,6 +15,8 @@
 		485E73921DD79F570015DB0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 485E73901DD79F570015DB0F /* LaunchScreen.storyboard */; };
 		485E739D1DD79F570015DB0F /* MetroCardBuddyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485E739C1DD79F570015DB0F /* MetroCardBuddyTests.swift */; };
 		485E73A81DD79F570015DB0F /* MetroCardBuddyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485E73A71DD79F570015DB0F /* MetroCardBuddyUITests.swift */; };
+		485E73B61DD7A82F0015DB0F /* FareCalculatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485E73B51DD7A82F0015DB0F /* FareCalculatorModel.swift */; };
+		485E73B81DD90F710015DB0F /* FareCalculatorModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485E73B71DD90F710015DB0F /* FareCalculatorModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		485E73A31DD79F570015DB0F /* MetroCardBuddyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetroCardBuddyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		485E73A71DD79F570015DB0F /* MetroCardBuddyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetroCardBuddyUITests.swift; sourceTree = "<group>"; };
 		485E73A91DD79F570015DB0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		485E73B51DD7A82F0015DB0F /* FareCalculatorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FareCalculatorModel.swift; sourceTree = "<group>"; };
+		485E73B71DD90F710015DB0F /* FareCalculatorModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FareCalculatorModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,7 @@
 				485E73851DD79F570015DB0F /* AppDelegate.swift */,
 				485E73871DD79F570015DB0F /* FirstViewController.swift */,
 				485E73891DD79F570015DB0F /* SecondViewController.swift */,
+				485E73B51DD7A82F0015DB0F /* FareCalculatorModel.swift */,
 				485E738B1DD79F570015DB0F /* Main.storyboard */,
 				485E738E1DD79F570015DB0F /* Assets.xcassets */,
 				485E73901DD79F570015DB0F /* LaunchScreen.storyboard */,
@@ -114,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				485E739C1DD79F570015DB0F /* MetroCardBuddyTests.swift */,
+				485E73B71DD90F710015DB0F /* FareCalculatorModelTests.swift */,
 				485E739E1DD79F570015DB0F /* Info.plist */,
 			);
 			path = MetroCardBuddyTests;
@@ -266,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				485E738A1DD79F570015DB0F /* SecondViewController.swift in Sources */,
+				485E73B61DD7A82F0015DB0F /* FareCalculatorModel.swift in Sources */,
 				485E73861DD79F570015DB0F /* AppDelegate.swift in Sources */,
 				485E73881DD79F570015DB0F /* FirstViewController.swift in Sources */,
 			);
@@ -276,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				485E739D1DD79F570015DB0F /* MetroCardBuddyTests.swift in Sources */,
+				485E73B81DD90F710015DB0F /* FareCalculatorModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
