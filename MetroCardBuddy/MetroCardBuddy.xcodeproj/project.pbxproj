@@ -526,6 +526,7 @@
 				485E73AE1DD79F570015DB0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		485E73AF1DD79F570015DB0F /* Build configuration list for PBXNativeTarget "MetroCardBuddyTests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +535,7 @@
 				485E73B11DD79F570015DB0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		485E73B21DD79F570015DB0F /* Build configuration list for PBXNativeTarget "MetroCardBuddyUITests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +544,7 @@
 				485E73B41DD79F570015DB0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
