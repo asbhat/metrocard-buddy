@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		485E73861DD79F570015DB0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485E73851DD79F570015DB0F /* AppDelegate.swift */; };
-		485E73881DD79F570015DB0F /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485E73871DD79F570015DB0F /* FirstViewController.swift */; };
+		485E73881DD79F570015DB0F /* BonusCalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485E73871DD79F570015DB0F /* BonusCalculatorViewController.swift */; };
 		485E738A1DD79F570015DB0F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485E73891DD79F570015DB0F /* SecondViewController.swift */; };
 		485E738D1DD79F570015DB0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 485E738B1DD79F570015DB0F /* Main.storyboard */; };
 		485E738F1DD79F570015DB0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 485E738E1DD79F570015DB0F /* Assets.xcassets */; };
@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		485E73821DD79F570015DB0F /* MetroCardBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetroCardBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		485E73851DD79F570015DB0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		485E73871DD79F570015DB0F /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		485E73871DD79F570015DB0F /* BonusCalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonusCalculatorViewController.swift; sourceTree = "<group>"; };
 		485E73891DD79F570015DB0F /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		485E738C1DD79F570015DB0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		485E738E1DD79F570015DB0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -104,7 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				485E73851DD79F570015DB0F /* AppDelegate.swift */,
-				485E73871DD79F570015DB0F /* FirstViewController.swift */,
+				485E73871DD79F570015DB0F /* BonusCalculatorViewController.swift */,
 				485E73891DD79F570015DB0F /* SecondViewController.swift */,
 				485E73B51DD7A82F0015DB0F /* FareCalculatorModel.swift */,
 				485E738B1DD79F570015DB0F /* Main.storyboard */,
@@ -274,7 +274,7 @@
 				485E738A1DD79F570015DB0F /* SecondViewController.swift in Sources */,
 				485E73B61DD7A82F0015DB0F /* FareCalculatorModel.swift in Sources */,
 				485E73861DD79F570015DB0F /* AppDelegate.swift in Sources */,
-				485E73881DD79F570015DB0F /* FirstViewController.swift in Sources */,
+				485E73881DD79F570015DB0F /* BonusCalculatorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
