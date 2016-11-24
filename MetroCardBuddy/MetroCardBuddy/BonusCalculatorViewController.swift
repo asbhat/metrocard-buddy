@@ -20,18 +20,44 @@
 
 import UIKit
 
-class BonusCalculatorViewController: UIViewController {
+class BonusCalculatorViewController: UIViewController, UITextFieldDelegate {
 
+    @IBOutlet weak var currentBalanceTextField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        addDoneButtonTo(textField: currentBalanceTextField)
+        self.currentBalanceTextField.delegate = self
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+    private func addDoneButtonTo(textField: UITextField) {
+        let keyboardToolbar = UIToolbar()
+        keyboardToolbar.sizeToFit()
+        let flexBarButton = UIBarButtonItem(barButtonSystemItem: .flexibleSpace, target: nil, action: nil)
+        let doneBarButton = UIBarButtonItem(barButtonSystemItem: .done, target: view, action: #selector(UIView.endEditing(_:)))
+        keyboardToolbar.items = [flexBarButton, doneBarButton]
+        textField.inputAccessoryView = keyboardToolbar
+    }
+    
+    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+        
+        let newText = (currentBalanceTextField.text! as NSString).replacingCharacters(in: range, with: string)
+        
+        // proper dollar format
+        let dollarExpression = "^[0-9]*([.][0-9]{0,2})?$"
+        let regex = try! NSRegularExpression(pattern: dollarExpression)
+        let matches = regex.matches(in: newText, range: NSRange(location: 0, length: newText.characters.count))
+        
+        guard matches.count > 0 else { return false }
+        
+        return true
+    }
+    
 }
 
