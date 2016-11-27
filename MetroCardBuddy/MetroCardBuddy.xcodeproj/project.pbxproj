@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		485E73861DD79F570015DB0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485E73851DD79F570015DB0F /* AppDelegate.swift */; };
-		485E73881DD79F570015DB0F /* BonusCalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485E73871DD79F570015DB0F /* BonusCalculatorViewController.swift */; };
+		485E73881DD79F570015DB0F /* OptimizeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485E73871DD79F570015DB0F /* OptimizeViewController.swift */; };
 		485E738A1DD79F570015DB0F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485E73891DD79F570015DB0F /* SecondViewController.swift */; };
 		485E738D1DD79F570015DB0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 485E738B1DD79F570015DB0F /* Main.storyboard */; };
 		485E738F1DD79F570015DB0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 485E738E1DD79F570015DB0F /* Assets.xcassets */; };
@@ -17,6 +17,8 @@
 		485E73A81DD79F570015DB0F /* MetroCardBuddyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485E73A71DD79F570015DB0F /* MetroCardBuddyUITests.swift */; };
 		485E73B61DD7A82F0015DB0F /* FareCalculatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485E73B51DD7A82F0015DB0F /* FareCalculatorModel.swift */; };
 		485E73B81DD90F710015DB0F /* FareCalculatorModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485E73B71DD90F710015DB0F /* FareCalculatorModelTests.swift */; };
+		489DCE521DEAA8E100787C5D /* FareTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489DCE511DEAA8E100787C5D /* FareTableViewController.swift */; };
+		48DE4C3C1DE6B3D10074EA04 /* AddMoneyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DE4C3B1DE6B3D10074EA04 /* AddMoneyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +41,7 @@
 /* Begin PBXFileReference section */
 		485E73821DD79F570015DB0F /* MetroCardBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetroCardBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		485E73851DD79F570015DB0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		485E73871DD79F570015DB0F /* BonusCalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonusCalculatorViewController.swift; sourceTree = "<group>"; };
+		485E73871DD79F570015DB0F /* OptimizeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptimizeViewController.swift; sourceTree = "<group>"; };
 		485E73891DD79F570015DB0F /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		485E738C1DD79F570015DB0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		485E738E1DD79F570015DB0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +55,8 @@
 		485E73A91DD79F570015DB0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		485E73B51DD7A82F0015DB0F /* FareCalculatorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FareCalculatorModel.swift; sourceTree = "<group>"; };
 		485E73B71DD90F710015DB0F /* FareCalculatorModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FareCalculatorModelTests.swift; sourceTree = "<group>"; };
+		489DCE511DEAA8E100787C5D /* FareTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FareTableViewController.swift; sourceTree = "<group>"; };
+		48DE4C3B1DE6B3D10074EA04 /* AddMoneyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddMoneyViewController.swift; path = ../AddMoneyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,13 +108,12 @@
 			isa = PBXGroup;
 			children = (
 				485E73851DD79F570015DB0F /* AppDelegate.swift */,
-				485E73871DD79F570015DB0F /* BonusCalculatorViewController.swift */,
-				485E73891DD79F570015DB0F /* SecondViewController.swift */,
-				485E73B51DD7A82F0015DB0F /* FareCalculatorModel.swift */,
 				485E738B1DD79F570015DB0F /* Main.storyboard */,
-				485E738E1DD79F570015DB0F /* Assets.xcassets */,
+				489DCE551DEAA98200787C5D /* ViewControllers */,
+				489DCE531DEAA90F00787C5D /* Models */,
 				485E73901DD79F570015DB0F /* LaunchScreen.storyboard */,
 				485E73931DD79F570015DB0F /* Info.plist */,
+				485E738E1DD79F570015DB0F /* Assets.xcassets */,
 			);
 			path = MetroCardBuddy;
 			sourceTree = "<group>";
@@ -132,6 +135,25 @@
 				485E73A91DD79F570015DB0F /* Info.plist */,
 			);
 			path = MetroCardBuddyUITests;
+			sourceTree = "<group>";
+		};
+		489DCE531DEAA90F00787C5D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				485E73B51DD7A82F0015DB0F /* FareCalculatorModel.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		489DCE551DEAA98200787C5D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				485E73871DD79F570015DB0F /* OptimizeViewController.swift */,
+				48DE4C3B1DE6B3D10074EA04 /* AddMoneyViewController.swift */,
+				489DCE511DEAA8E100787C5D /* FareTableViewController.swift */,
+				485E73891DD79F570015DB0F /* SecondViewController.swift */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,7 +296,9 @@
 				485E738A1DD79F570015DB0F /* SecondViewController.swift in Sources */,
 				485E73B61DD7A82F0015DB0F /* FareCalculatorModel.swift in Sources */,
 				485E73861DD79F570015DB0F /* AppDelegate.swift in Sources */,
-				485E73881DD79F570015DB0F /* BonusCalculatorViewController.swift in Sources */,
+				489DCE521DEAA8E100787C5D /* FareTableViewController.swift in Sources */,
+				485E73881DD79F570015DB0F /* OptimizeViewController.swift in Sources */,
+				48DE4C3C1DE6B3D10074EA04 /* AddMoneyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

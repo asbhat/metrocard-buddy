@@ -1,5 +1,5 @@
 //
-//  BonusCalculatorViewController.swift
+//  OptimizeViewController.swift
 //  MetroCardBuddy
 //
 //  Created by Aditya Bhat on 11/12/16.
@@ -20,7 +20,7 @@
 
 import UIKit
 
-class BonusCalculatorViewController: UIViewController, UITextFieldDelegate {
+class OptimizeViewController: UIViewController, UITextFieldDelegate {
 
     @IBOutlet weak var currentBalanceTextField: UITextField!
     
@@ -57,6 +57,12 @@ class BonusCalculatorViewController: UIViewController, UITextFieldDelegate {
         guard matches.count > 0 else { return false }
         
         return true
+    }
+    
+    @IBAction func unwindToBonusCalculator(sender: UIStoryboardSegue)
+    {
+        // let sourceViewController = sender.source
+        // Pull any data from the view controller which initiated the unwind segue.
     }
     
 }
