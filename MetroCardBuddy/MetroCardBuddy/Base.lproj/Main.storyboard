@@ -140,7 +140,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="idFareCell" id="7vk-kr-Uzf">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="idFareCell" id="7vk-kr-Uzf" customClass="FareTableCellViewController" customModule="MetroCardBuddy" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="240" height="100"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="7vk-kr-Uzf" id="6xa-Rf-bfX">
@@ -148,22 +148,21 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="erI-4k-D7N">
-                                            <rect key="frame" x="-40" y="-59" width="320" height="216"/>
+                                            <rect key="frame" x="-40" y="8" width="320" height="84"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                         </pickerView>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="rowPicker" destination="erI-4k-D7N" id="0Qk-uF-3Ch"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="ogi-Gt-nkn" id="s0f-iD-V7j"/>
-                            <outlet property="delegate" destination="ogi-Gt-nkn" id="fSa-S5-n9F"/>
-                        </connections>
                     </tableView>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZQU-xe-HEW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2505" y="-412"/>
+            <point key="canvasLocation" x="2505" y="-413.02816901408454"/>
         </scene>
         <!--Add Money-->
         <scene sceneID="r1i-Df-I8g">

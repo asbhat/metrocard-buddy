@@ -17,6 +17,7 @@
 		485E73A81DD79F570015DB0F /* MetroCardBuddyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485E73A71DD79F570015DB0F /* MetroCardBuddyUITests.swift */; };
 		485E73B61DD7A82F0015DB0F /* FareCalculatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485E73B51DD7A82F0015DB0F /* FareCalculatorModel.swift */; };
 		485E73B81DD90F710015DB0F /* FareCalculatorModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485E73B71DD90F710015DB0F /* FareCalculatorModelTests.swift */; };
+		488A16EF1DEE76C500BF6BD0 /* FareTableCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488A16EE1DEE76C500BF6BD0 /* FareTableCellViewController.swift */; };
 		489DCE521DEAA8E100787C5D /* FareTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489DCE511DEAA8E100787C5D /* FareTableViewController.swift */; };
 		48DE4C3C1DE6B3D10074EA04 /* AddMoneyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DE4C3B1DE6B3D10074EA04 /* AddMoneyViewController.swift */; };
 /* End PBXBuildFile section */
@@ -55,6 +56,7 @@
 		485E73A91DD79F570015DB0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		485E73B51DD7A82F0015DB0F /* FareCalculatorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FareCalculatorModel.swift; sourceTree = "<group>"; };
 		485E73B71DD90F710015DB0F /* FareCalculatorModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FareCalculatorModelTests.swift; sourceTree = "<group>"; };
+		488A16EE1DEE76C500BF6BD0 /* FareTableCellViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FareTableCellViewController.swift; sourceTree = "<group>"; };
 		489DCE511DEAA8E100787C5D /* FareTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FareTableViewController.swift; sourceTree = "<group>"; };
 		48DE4C3B1DE6B3D10074EA04 /* AddMoneyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddMoneyViewController.swift; path = ../AddMoneyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -137,6 +139,15 @@
 			path = MetroCardBuddyUITests;
 			sourceTree = "<group>";
 		};
+		488A16F01DEE79DA00BF6BD0 /* FareTable */ = {
+			isa = PBXGroup;
+			children = (
+				489DCE511DEAA8E100787C5D /* FareTableViewController.swift */,
+				488A16EE1DEE76C500BF6BD0 /* FareTableCellViewController.swift */,
+			);
+			name = FareTable;
+			sourceTree = "<group>";
+		};
 		489DCE531DEAA90F00787C5D /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -150,7 +161,7 @@
 			children = (
 				485E73871DD79F570015DB0F /* OptimizeViewController.swift */,
 				48DE4C3B1DE6B3D10074EA04 /* AddMoneyViewController.swift */,
-				489DCE511DEAA8E100787C5D /* FareTableViewController.swift */,
+				488A16F01DEE79DA00BF6BD0 /* FareTable */,
 				485E73891DD79F570015DB0F /* SecondViewController.swift */,
 			);
 			name = ViewControllers;
@@ -297,6 +308,7 @@
 				485E73B61DD7A82F0015DB0F /* FareCalculatorModel.swift in Sources */,
 				485E73861DD79F570015DB0F /* AppDelegate.swift in Sources */,
 				489DCE521DEAA8E100787C5D /* FareTableViewController.swift in Sources */,
+				488A16EF1DEE76C500BF6BD0 /* FareTableCellViewController.swift in Sources */,
 				485E73881DD79F570015DB0F /* OptimizeViewController.swift in Sources */,
 				48DE4C3C1DE6B3D10074EA04 /* AddMoneyViewController.swift in Sources */,
 			);

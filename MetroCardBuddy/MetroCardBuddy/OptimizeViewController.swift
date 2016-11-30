@@ -23,6 +23,7 @@ import UIKit
 class OptimizeViewController: UIViewController, UITextFieldDelegate {
 
     @IBOutlet weak var currentBalanceTextField: UITextField!
+    @IBOutlet weak var rowPicker: UIPickerView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -47,7 +48,7 @@ class OptimizeViewController: UIViewController, UITextFieldDelegate {
     
     func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
         
-        let newText = (currentBalanceTextField.text! as NSString).replacingCharacters(in: range, with: string)
+        let newText = (textField.text! as NSString).replacingCharacters(in: range, with: string)
         
         // proper dollar format
         let dollarExpression = "^[0-9]*([.][0-9]{0,2})?$"
