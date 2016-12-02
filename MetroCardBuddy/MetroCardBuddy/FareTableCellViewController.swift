@@ -64,4 +64,35 @@ class FareTableCellViewController: UITableViewCell, UIPickerViewDataSource, UIPi
         print("did Select: \(rowPickerData[component][row])")
     }
     
+    func pickerView(_ pickerView: UIPickerView, viewForRow row: Int, forComponent component: Int, reusing view: UIView?) -> UIView {
+        let label = view as? UILabel ?? UILabel()
+        
+        label.textColor = .blue
+        label.textAlignment = .left
+        label.font = UIFont(name: "system", size: 5)
+        label.numberOfLines = 0
+        label.lineBreakMode = .byWordWrapping
+        
+        label.text = rowPickerData[component][row]
+        
+        return label
+    }
+    
+    func pickerView(_ pickerView: UIPickerView, widthForComponent component: Int) -> CGFloat {
+        switch component {
+        case 0: return 80
+        case 1: return 30
+        case 2: return 125
+        default: return 60
+        }
+    }
+    
+    func pickerView(_ pickerView: UIPickerView, rowHeightForComponent component: Int) -> CGFloat {
+        switch component {
+        case 0: return 15
+        case 1: return 15
+        case 2: return 75
+        default: return 30
+        }
+    }
 }
