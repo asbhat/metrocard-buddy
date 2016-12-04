@@ -50,4 +50,9 @@ class FareCalculatorModelTests: XCTestCase {
         XCTAssertEqual(fare, 22.30)
     }
     
+    func testIdealLowerThanStartingBalance() {
+        let fare = fareCalculator.calculateMoneyToAddToCard(startingBalance: 44.25, idealAmount: 0, baseFare: 2.75)
+        XCTAssertEqual(fare, 24.55)
+    }
+    
 }

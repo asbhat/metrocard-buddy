@@ -41,7 +41,7 @@ class FareCalculatorModel {
     
     func calculateMoneyToAddToCard(startingBalance: Double, idealAmount: Double, baseFare: Double) -> Double? {
         
-        let targetCentsToAdd = round( ((idealAmount - startingBalance) * 100) / (1 + bonusPercentage) )
+        let targetCentsToAdd = max( round( ((idealAmount - startingBalance) * 100) / (1 + bonusPercentage) ), 0)
         if targetCentsToAdd > 0 && targetCentsToAdd.remainder(dividingBy: smallestDollarIncrement * 100) == 0 {
             return targetCentsToAdd / 100
         }
