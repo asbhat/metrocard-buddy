@@ -23,6 +23,14 @@ import UIKit
 class OptimizeViewController: UIViewController, UITextFieldDelegate {
 
     @IBOutlet weak var currentBalanceTextField: UITextField!
+    private let currentBalanceDollarFormatter = NumberFormatter()
+    
+    var currentBalanceValue: NSNumber {
+        get {
+            currentBalanceDollarFormatter.numberStyle = .currency
+            return currentBalanceDollarFormatter.number(from: currentBalanceTextField.text!) ?? NSNumber(value: Double(currentBalanceTextField.text!) ?? 0)
+        }
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -50,7 +58,7 @@ class OptimizeViewController: UIViewController, UITextFieldDelegate {
         let newText = (textField.text! as NSString).replacingCharacters(in: range, with: string)
         
         // proper dollar format
-        let dollarExpression = "^[0-9]*([.][0-9]{0,2})?$"
+        let dollarExpression = "^\\$?[0-9,]*([.][0-9]{0,2})?$"
         let regex = try! NSRegularExpression(pattern: dollarExpression)
         let matches = regex.matches(in: newText, range: NSRange(location: 0, length: newText.characters.count))
         
@@ -59,7 +67,24 @@ class OptimizeViewController: UIViewController, UITextFieldDelegate {
         return true
     }
     
+    func textFieldDidEndEditing(_ textField: UITextField, reason: UITextFieldDidEndEditingReason) {
+
+        guard textField.text != "" else { return }
+        
+        let dollarValue = currentBalanceValue
+        
+        textField.text = currentBalanceDollarFormatter.string(from: dollarValue)
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "idAddMoney" {
+            let destinationVC = segue.destination as! AddMoneyViewController
+            
+            let fareModel = FareCalculatorModel()
+            
+            // TODO - fix this to be dynamic
+            destinationVC.moneyToAddValue = fareModel.calculateMoneyToAddToCard(startingBalance: Double(currentBalanceValue), idealAmount: 0, baseFare: 2.75)
+        }
+    }
 }
 

@@ -93,7 +93,7 @@
                                                     <color key="titleColor" red="0.45440106949999998" green="1" blue="0.251319764" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="CTE-UR-S6m" kind="show" id="56l-gP-QmS"/>
+                                                    <segue destination="CTE-UR-S6m" kind="show" identifier="idAddMoney" id="56l-gP-QmS"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -176,17 +176,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="1000"/>
                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Add Money VC" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y6A-Dr-Evo">
-                                <rect key="frame" x="69" y="67" width="182" height="61"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Add Money VC" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y6A-Dr-Evo">
+                                <rect key="frame" x="16" y="110" width="288" height="165"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D4O-Kt-VDp">
-                                <rect key="frame" x="16" y="698" width="288" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -196,12 +189,12 @@
                     </view>
                     <navigationItem key="navigationItem" title="Add Money" id="J4J-oD-3vW"/>
                     <connections>
-                        <outlet property="lblMessage" destination="D4O-Kt-VDp" id="rWs-HO-yOV"/>
+                        <outlet property="addMoneyLabel" destination="Y6A-Dr-Evo" id="3br-W5-P5s"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qme-xo-R2D" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2554" y="693"/>
+            <point key="canvasLocation" x="2553.75" y="692.95774647887322"/>
         </scene>
         <!--Second-->
         <scene sceneID="wg7-f3-ORb">

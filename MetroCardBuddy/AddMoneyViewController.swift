@@ -22,11 +22,27 @@ import UIKit
 
 class AddMoneyViewController: UIViewController {
 
-    @IBOutlet weak var lblMessage: UILabel!
+    @IBOutlet weak var addMoneyLabel: UILabel!
+    private let addMoneyDollarFormatter = NumberFormatter()
+    
+    var moneyToAddValue: Double? = 0.0
+    
+    private var moneyToAddMessage: String {
+        get {
+            if let value = moneyToAddValue {
+                addMoneyDollarFormatter.numberStyle = .currency
+                return "Add \(addMoneyDollarFormatter.string(from: NSNumber(value: value))!) to your card"
+            } else {
+                return "Error! Could not find an optimal solution!"
+            }
+        }
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        addMoneyLabel.text = moneyToAddMessage
     }
 
     override func didReceiveMemoryWarning() {
