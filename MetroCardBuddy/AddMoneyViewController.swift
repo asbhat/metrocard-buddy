@@ -27,10 +27,6 @@ class AddMoneyViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        
-        let screenEdgeRecognizer = UIScreenEdgePanGestureRecognizer(target: self, action: #selector(goBackward(sender:)))
-        screenEdgeRecognizer.edges = .left
-        view.addGestureRecognizer(screenEdgeRecognizer)
     }
 
     override func didReceiveMemoryWarning() {
@@ -48,8 +44,5 @@ class AddMoneyViewController: UIViewController {
     }
     */
     
-    func goBackward(sender: UIScreenEdgePanGestureRecognizer) {
-        self.performSegue(withIdentifier: "idUnwindToBonusCalculator", sender: sender)
-    }
     
 }

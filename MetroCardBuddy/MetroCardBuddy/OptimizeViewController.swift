@@ -23,7 +23,6 @@ import UIKit
 class OptimizeViewController: UIViewController, UITextFieldDelegate {
 
     @IBOutlet weak var currentBalanceTextField: UITextField!
-    @IBOutlet weak var rowPicker: UIPickerView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -60,10 +59,6 @@ class OptimizeViewController: UIViewController, UITextFieldDelegate {
         return true
     }
     
-    @IBAction func unwindToBonusCalculator(sender: UIStoryboardSegue)
-    {
-        // let sourceViewController = sender.source
-        // Pull any data from the view controller which initiated the unwind segue.
     }
     
 }
