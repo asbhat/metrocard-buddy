@@ -31,7 +31,7 @@ class AddMoneyViewController: UIViewController {
         get {
             if let value = moneyToAddValue {
                 addMoneyDollarFormatter.numberStyle = .currency
-                return "Add \(addMoneyDollarFormatter.string(from: NSNumber(value: value))!) to your card"
+                return "Add \(addMoneyDollarFormatter.string(from: NSNumber(value: value))!)\n to your card"
             } else {
                 return "Error! Could not find an optimal solution!"
             }
