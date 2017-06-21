@@ -1,2 +1,2 @@
 # metrocard-buddy
-Helper for putting money on your NYC MetroCard
+a helper for putting money on your NYC MetroCard
