@@ -3,7 +3,7 @@
 //  MetroCardBuddy
 //
 //  Created by Aditya Bhat on 11/12/16.
-//  Copyright © 2016 Aditya Bhat. All rights reserved.
+//  Copyright © 2016-2017 Aditya Bhat. All rights reserved.
 //
 
 import UIKit
